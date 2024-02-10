@@ -34,26 +34,33 @@ html.is-animating .transition-fade {
   z-index: 9999;
 }
 
-.header__wrapper h1,
-h2 {
+.question {
   font-size: 3rem;
   color: #fff;
   text-shadow: 2px 2px 3px #e44862;
+  margin-bottom: 20px;
+}
+
+.header__text__wrapper {
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px 3px #e44862;
+  margin-bottom: 40px;
 }
 
 .frame {
   position: absolute;
-  top: -278px;
-  left: -208px;
-  width: 100vh;
+  top: -235px;
+  left: -201px;
+  width: 174%;
   z-index: -99;
 }
 
 .frameSecond {
   position: absolute;
-  top: -341px;
-  left: -200px;
-  width: 100vh;
+  top: -298px;
+  left: -197px;
+  width: 170%;
   z-index: -99;
 }
 
@@ -103,4 +110,23 @@ h2 {
   background-color: #f71c65;
   border: 2px solid #f5c8d7;
   cursor: pointer;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__wrapper {
+  padding: 20px;
+  margin-bottom: 5rem;
+  background-color: #f07fa5;
+  position: relative;
+  box-shadow: 10px 10px 42px 0 rgba(0, 0, 0, 0.75);
+}
+
+.img__wrapper img {
+  width: 60rem;
+  border: 7px solid #e44862;
 }
